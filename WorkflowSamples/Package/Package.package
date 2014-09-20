@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="67497288-57b9-4cc7-9b77-cded6323e134" 
+        solutionId="67497288-57b9-4cc7-9b77-cded6323e134" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="WorkflowSamples"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="a36cde96-d76f-43ad-a0ed-26c03c809f80" />
+  </features>
+</package>
