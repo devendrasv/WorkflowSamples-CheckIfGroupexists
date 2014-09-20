@@ -169,7 +169,7 @@
           <p1:WriteToHistory sap2010:WorkflowViewState.IdRef="WriteToHistory_2">
             <p1:WriteToHistory.Message>
               <InArgument x:TypeArguments="x:String">
-                <mca:CSharpValue x:TypeArguments="x:String">"Error while restriving SharePoint Group :' "+ GroupName +"' Information. Status Code : " + Convert.ToString(Statuscode)</mca:CSharpValue>
+                <mca:CSharpValue x:TypeArguments="x:String">"Error while retrieving SharePoint Group :' " + GroupName + "' Information. Status Code : " + Convert.ToString(Statuscode)</mca:CSharpValue>
               </InArgument>
             </p1:WriteToHistory.Message>
           </p1:WriteToHistory>
@@ -195,7 +195,7 @@
         </Sequence>
       </If.Else>
     </If>
-    <sads:DebugSymbol.Symbol>d11DOlxEZXZlbmRyYVxCdXNpbmVzc1xXb3JrZmxvd1NhbXBsZXNcV29ya2Zsb3dTYW1wbGVzXFdvcmtmbG93XENoZWNraWZHcm91cGV4aXN0XFdvcmtmbG93LnhhbWwpKgPHAQ4CAQE1BUkbAwGoAUoFVRwDAZUBVgVfDgMBigFgBWsOAgF3bAV3DgIBZHgFkgESAgFEkwEFxQEKAgECPwtBKAMBswFGC0ZwAwGqATgLOigDAakBUgtSVAMBnwFNC01oAwGWAV0wXT4DAZQBWQtZWgMBiwFoC2htAwGBAWMLY1oCAXh0C3SaAQIBbm8Lb1gCAWV7C4ABKQIBYYoBC4oBZAIBWI8BC48BUAIBT4UBC4UBcQIBRnhFeEoCAUWWAQuWAWwCAQOaAQmiARQCATmlAQnDARQCAQxADUAkBAGzAQE5DTkkBAGpAQF9RX1jAgFjfkt+aQIBYpsBC6EBHwIBOqkBC68BHwIBLrABC7sBJwIBGLwBC8IBHwIBDZ4BEZ4BfgIBO6wBEawBxwECAS+zARGzAWMCASS4ARG4AW8CARqwAYwBsAGhAQIBGb8BEb8BwAECAQ4=</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>d11DOlxEZXZlbmRyYVxCdXNpbmVzc1xXb3JrZmxvd1NhbXBsZXNcV29ya2Zsb3dTYW1wbGVzXFdvcmtmbG93XENoZWNraWZHcm91cGV4aXN0XFdvcmtmbG93LnhhbWwpKgPHAQ4CAQE1BUkbAwGoAUoFVRwDAZUBVgVfDgMBigFgBWsOAgF3bAV3DgIBZHgFkgESAgFEkwEFxQEKAgECPwtBKAMBswFGC0ZwAwGqATgLOigDAakBUgtSVAMBnwFNC01oAwGWAV0wXT4DAZQBWQtZWgMBiwFoC2htAwGBAWMLY1oCAXh0C3SaAQIBbm8Lb1gCAWV7C4ABKQIBYYoBC4oBZAIBWI8BC48BUAIBT4UBC4UBcQIBRnhFeEoCAUWWAQuWAWwCAQOaAQmiARQCATmlAQnDARQCAQxADUAkBAGzAQE5DTkkBAGpAQF9RX1jAgFjfkt+aQIBYpsBC6EBHwIBOqkBC68BHwIBLrABC7sBJwIBGLwBC8IBHwIBDZ4BEZ4BfgIBO6wBEawByQECAS+zARGzAWMCASS4ARG4AW8CARqwAYwBsAGhAQIBGb8BEb8BwAECAQ4=</sads:DebugSymbol.Symbol>
   </Sequence>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
